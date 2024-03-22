@@ -19,209 +19,209 @@
         </div>
         <div class="div2">
             <form action="" class="formulario">
-            <div class="cajform1" id="F1">
-                <h3>DATOS FILIATORIOS</h3>
-                <div class="divsolapa">
-                    <button class="activo" name="F1" onclick="cambiarClasePadre(event)" >detenido</button>
-                    <button class="btn " name="F2" onclick="cambiarClasePadre(event)" >policial</button>
-                    <button class="btn" name="F3" onclick="cambiarClasePadre(event)" >judicial</button>
-                    <button class="btn" name="F4" onclick="cambiarClasePadre(event)">familia</button>
+                <div class="cajform1" id="F1">
+                    <h3>DATOS FILIATORIOS</h3>
+                    <div class="divsolapa">
+                        <button class="activo" name="F1" onclick="cambiarClasePadre(event)" >detenido</button>
+                        <button class="btn " name="F2" onclick="cambiarClasePadre(event)" >policial</button>
+                        <button class="btn" name="F3" onclick="cambiarClasePadre(event)" >judicial</button>
+                        <button class="btn" name="F4" onclick="cambiarClasePadre(event)">familia</button>
+                    </div>
+                    
+                    <input type="text" id="campo1" name="campo1"   placeholder="APELLIDO" required>
+                    <input type="text" id="campo2" name="campo2"  placeholder="NOMBRE" required>
+                    <input type="text" id="campo3" name="campo3"  placeholder="LOCALIDAD" required>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo4" name="campo4" class="inMediano"  placeholder="DOMICILIO"required>
+                        <input type="text" id="campo5" name="campo5" class="inChico" placeholder="NUMERAL"  required>
+                    </div>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo6" name="campo6" class="inMediano" placeholder="DOCUMENTO"  required>
+                        <input type="text" id="campo7" name="campo7" class="inChico" placeholder="NACIONALIDAD" required>
+                    </div>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo8" name="campo8" class="inChico" placeholder="FECHA NACIMIENTO"  required>
+                        <input type="text" id="campo9" name="campo9" class="inMediano"  placeholder="DONDE NACIO"  required>
+                    </div>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo10" name="campo10" class="inChico"  placeholder="ESTADO CIVIL" required>
+                        <input type="text" id="campo11" name="campo11" class="inMediano" placeholder="PROFESION" required>
+                    </div>
+                    <div>
+                        <label for="opcion">LEE</label>
+                        <select id="select1" name="opcion">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                        </select>
+                        <label for="opcion">ESCRIBE</label>
+                        <select id="select2" name="opcion">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                        </select>
+                    </div>
+    
+                </div>
+                <div class="novisible" id="F2">
+                    <h3>DATOS POLICIALES</h3>
+                    <div class="divsolapa">
+                        <button class="btn" name="F1" onclick="cambiarClasePadre(event)" >detenido</button>
+                        <button class="activo " name="F2" onclick="cambiarClasePadre(event)" >policial</button>
+                        <button class="btn" name="F3" onclick="cambiarClasePadre(event)" >judicial</button>
+                        <button class="btn" name="F4" onclick="cambiarClasePadre(event)">familia</button>
+                    </div>
+                    <input type="text" id="campo12" name="campo12"   placeholder="FALTA O DELITO" required>
+                    <input type="text" id="campo13" name="campo13"  placeholder="MODALIDAD" required>
+                    <input type="text" id="campo14" name="campo14"  placeholder="CATALOGADO COMO" required>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo15"name="campo15" class="inMediano"  placeholder="POLICIA ACTUARIA" required>
+                        <input type="text" id="campo16" name="campo16" class="inChico" placeholder="SECCIONAL"  required>
+                    </div>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo17" name="campo17" class="inMediano" placeholder="LUGAR DE LA DETENCION" required>
+                        <input type="text" id="campo18" name="campo18" class="inChico" placeholder="PARTIDO" required>
+                    </div>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo19" name="campo19" class="inChico" placeholder="FECHA COMISION"  required>
+                        <input type="text" id="campo20" name="campo20 class="inMediano"  placeholder="IDENTIFICADO EN" required>
+                    </div>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo21" name="campo21" class="inChico"  placeholder="FECHA DE IDENTIFICACION" required>
+                        <input type="text" id="campo22" name="campo22" class="inMediano" placeholder="VICTIMA"  required>
+                    </div>
+                    <div>
+                        <label for="opcion">LEE</label>
+                        <select id="select3" name="opcion">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                        </select>
+                        <label for="opcion">ESCRIBE</label>
+                        <select id="select4" name="opcion">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                        </select>
+                    </div>
+    
+                </div>
+                <div class="novisible" id="F3">
+                    <h3>DATOS JUDICIALES</h3>
+                    <div class="divsolapa">
+                        <button class="btn" name="F1" onclick="cambiarClasePadre(event)" >detenido</button>
+                        <button class="btn " name="F2" onclick="cambiarClasePadre(event)" >policial</button>
+                        <button class="activo" name="F3" onclick="cambiarClasePadre(event)" >judicial</button>
+                        <button class="btn" name="F4" onclick="cambiarClasePadre(event)">familia</button>
+                    </div>
+                    <input type="text" id="campo23" name="campo23"   placeholder="JUZGADO INTERVINIENTE" required>
+                    <input type="text" id="campo24" name="campo24"  placeholder="FISCALIA INTERVINIENTE" required>
+                    <input type="text" id="campo25" name="campo25"  placeholder="LOCALIDAD DEL DPTO JUDICIAL" required>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo26"name="campo26" class="inMediano"  placeholder="PROVINCIA" required>
+                        <input type="text" id="campo27" name="campo27"  class="inChico" placeholder="IPP" required>
+                    </div>
+                      <h4>fue detenido o procesado anteriormente</h4>
+                    <div class="contenedor-in">
+                      
+                        <select id="select5" name="opcion">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                        </select>
+                        <input type="text" id="campo28" name="campo28" class="inChico"  placeholder="DONDE" required>
+                    </div>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo28" name="campo28" class="inChico"  placeholder="NUMERO CAUSA" required>
+                        <input type="text" id="campo29" name="campo29" class="inMediano" placeholder="PORQUE?"  required>
+                    </div>
+                    
+                </div>
+                <div class="novisible" id="F4">
+                    <h3>REMISION Y FAMILIA</h3>
+                    <div class="divsolapa">
+                        <button class="btn" name="F1" onclick="cambiarClasePadre(event)" >detenido</button>
+                        <button class="btn " name="F2" onclick="cambiarClasePadre(event)" >policial</button>
+                        <button class="btn" name="F3" onclick="cambiarClasePadre(event)" >judicial</button>
+                        <button class="activo" name="F4" onclick="cambiarClasePadre(event)">familia</button>
+                    </div>
+    
+                    <div class="contenedor-in">
+                        <input type="text" id="campo30"name="campo30" class="inMediano"  placeholder="NOMBRE MADRE" required>
+                        <input type="text" id="campo31" name="campo31" class="inChico" placeholder="APELLIDO"  required>
+                    </div>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo32" name="campo32" class="inMediano"  placeholder="DOMICILIO" required>
+                        <input type="text" id="campo33" name="campo33" class="inChico" placeholder="NUMERAL"  required>
+                    </div>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo34" name="campo34" class="inMediano"  placeholder="NOMBRE PADRE" required>
+                        <input type="text" id="campo35" name="campo35" class="inChico" placeholder="APELLIDO"  required>
+                    </div>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo36" name="campo36" class="inMediano" placeholder="DOMICILIO" required>
+                        <input type="text" id="campo37" name="campo37" class="inChico" placeholder="NUMERAL"required>
+                    </div>
+                    <div class="contenedor-in">
+                        <input type="text" id="campo38" name="campo38" class="inChico" placeholder="APELLIDO CONB/ESP"  required>
+                        <input type="text" id="campo39" name="campo39" class="inMediano"  placeholder="NOMBRE"  required>
+                    </div>
+                    
+                    <div>
+                        <label for="opcion">OJOS</label>
+                        <select id="select6" name="opcion">
+                            <option value="verde">verde</option>
+                            <option value="azul">azul</option>
+                            <option value="marron">maron</option>
+                            <option value="gris">gris</option>
+                        </select>
+                        <label for="opcion">CABELLO</label>
+                        <select id="select7" name="opcion">
+                            <option value="rubio">rubio</option>
+                            <option value="maron">maron</option>
+                            <option value="blanco">blanco</option>
+                            <option value="negro">negro</option>
+                            <option value="colorado">colorado</option>
+                        </select>
+                        <label for="opcion">BARBA</label>
+                        <select id="select8" name="opcion">
+                            <option value="rubio">rubio</option>
+                            <option value="maron">maron</option>
+                            <option value="blanco">blanco</option>
+                            <option value="negro">negro</option>
+                            <option value="colorado">colorado</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="opcion">ALTURA</label>
+                        <select id="select9" name="opcion">
+                        <option value="120cm">120cm</option>
+                        <option value="130cm">130cm</option>
+                        <option value="140cm">140cm</option>
+                        <option value="150cm">150cm</option>
+                        <option value="160cm">160cm</option>
+                        <option value="170cm">170cm</option>
+                        <option value="180cm">180cm</option>
+                        <option value="190cm">190cm</option>
+                        <option value="200cm">200cm</option>
+                        <option value="210cm">210cm</option>
+                        </select>
+                        <label for="opcion">TEZ</label>
+                        <select id="select10" name="opcion">
+                            <option value="palida">palida</option>
+                            <option value="marfil">marfil</option>
+                            <option value="beige">beige</option>
+                            <option value="trigueño">trigueño</option>
+                            <option value="marron">marron</option>
+                            <option value="ebano">ebano</option>
+                        </select>
+                        <label for="opcion">CONTEXTURA</label>
+                        <select id="select11" name="opcion">
+                        <option value="delgada">delgada</option>
+                        <option value="normal">normal</option>
+                        <option value="gruesa">gruesa</option>
+                        <option value="obeso">obeso</option>
+                        </select>
+                    </div>
+                    <button class="boton">siguinte</button>
                 </div>
                 
-                <input type="text" id="campo1" name="campo1"   placeholder="APELLIDO" required>
-                <input type="text" id="campo2" name="campo2"  placeholder="NOMBRE" required>
-                <input type="text" id="campo3" name="campo3"  placeholder="LOCALIDAD" required>
-                <div class="contenedor-in">
-                    <input type="text" id="campo4" class="inMediano"  placeholder="DOMICILIO"name="campo4" required>
-                    <input type="text" id="campo5"  class="inChico" placeholder="NUMERAL" name="campo5" required>
-                </div>
-                <div class="contenedor-in">
-                    <input type="text" id="campo4" class="inMediano" placeholder="DOCUMENTO" name="campo4" required>
-                    <input type="text" id="campo5"  class="inChico" placeholder="NACIONALIDAD"name="campo5" required>
-                </div>
-                <div class="contenedor-in">
-                    <input type="text" id="campo5"  class="inChico" placeholder="FECHA NACIMIENTO" name="campo5" required>
-                    <input type="text" id="campo4" class="inMediano"  placeholder="DONDE NACIO" name="campo4" required>
-                </div>
-                <div class="contenedor-in">
-                    <input type="text" id="campo5"  class="inChico"  placeholder="ESTADO CIVIL"name="campo5" required>
-                    <input type="text" id="campo4" class="inMediano" placeholder="PROFESION" name="campo4" required>
-                </div>
-                <div>
-                    <label for="opcion">LEE</label>
-                    <select id="opcion" name="opcion">
-                    <option value="si">Sí</option>
-                    <option value="no">No</option>
-                    </select>
-                    <label for="opcion">ESCRIBE</label>
-                    <select id="opcion" name="opcion">
-                    <option value="si">Sí</option>
-                    <option value="no">No</option>
-                    </select>
-                </div>
-
-            </div>
-            <div class="novisible" id="F2">
-                <h3>DATOS POLICIALES</h3>
-                <div class="divsolapa">
-                    <button class="btn" name="F1" onclick="cambiarClasePadre(event)" >detenido</button>
-                    <button class="activo " name="F2" onclick="cambiarClasePadre(event)" >policial</button>
-                    <button class="btn" name="F3" onclick="cambiarClasePadre(event)" >judicial</button>
-                    <button class="btn" name="F4" onclick="cambiarClasePadre(event)">familia</button>
-                </div>
-                <input type="text" id="campo1" name="campo1"   placeholder="FALTA O DELITO" required>
-                <input type="text" id="campo2" name="campo2"  placeholder="MODALIDAD" required>
-                <input type="text" id="campo3" name="campo3"  placeholder="CATALOGADO COMO" required>
-                <div class="contenedor-in">
-                    <input type="text" id="campo4" class="inMediano"  placeholder="POLICIA ACTUARIA"name="campo4" required>
-                    <input type="text" id="campo5"  class="inChico" placeholder="SECCIONAL" name="campo5" required>
-                </div>
-                <div class="contenedor-in">
-                    <input type="text" id="campo4" class="inMediano" placeholder="LUGAR DE LA DETENCION" name="campo4" required>
-                    <input type="text" id="campo5"  class="inChico" placeholder="PARTIDO"name="campo5" required>
-                </div>
-                <div class="contenedor-in">
-                    <input type="text" id="campo5"  class="inChico" placeholder="FECHA COMISION" name="campo5" required>
-                    <input type="text" id="campo4" class="inMediano"  placeholder="IDENTIFICADO EN" name="campo4" required>
-                </div>
-                <div class="contenedor-in">
-                    <input type="text" id="campo5"  class="inChico"  placeholder="FECHA DE IDENTIFICACION"name="campo5" required>
-                    <input type="text" id="campo4" class="inMediano" placeholder="VICTIMA" name="campo4" required>
-                </div>
-                <div>
-                    <label for="opcion">LEE</label>
-                    <select id="opcion" name="opcion">
-                    <option value="si">Sí</option>
-                    <option value="no">No</option>
-                    </select>
-                    <label for="opcion">ESCRIBE</label>
-                    <select id="opcion" name="opcion">
-                    <option value="si">Sí</option>
-                    <option value="no">No</option>
-                    </select>
-                </div>
-
-            </div>
-            <div class="novisible" id="F3">
-                <h3>DATOS JUDICIALES</h3>
-                <div class="divsolapa">
-                    <button class="btn" name="F1" onclick="cambiarClasePadre(event)" >detenido</button>
-                    <button class="btn " name="F2" onclick="cambiarClasePadre(event)" >policial</button>
-                    <button class="activo" name="F3" onclick="cambiarClasePadre(event)" >judicial</button>
-                    <button class="btn" name="F4" onclick="cambiarClasePadre(event)">familia</button>
-                </div>
-                <input type="text" id="campo1" name="campo1"   placeholder="JUZGADO INTERVINIENTE" required>
-                <input type="text" id="campo2" name="campo2"  placeholder="FISCALIA INTERVINIENTE" required>
-                <input type="text" id="campo3" name="campo3"  placeholder="LOCALIDAD DEL DPTO JUDICIAL" required>
-                <div class="contenedor-in">
-                    <input type="text" id="campo4" class="inMediano"  placeholder="PROVINCIA"name="campo4" required>
-                    <input type="text" id="campo5"  class="inChico" placeholder="IPP" name="campo5" required>
-                </div>
-                  <h4>fue detenido o procesado anteriormente</h4>
-                <div class="contenedor-in">
-                  
-                    <select id="opcion" name="opcion">
-                    <option value="si">Sí</option>
-                    <option value="no">No</option>
-                    </select>
-                    <input type="text" id="campo5"  class="inChico"  placeholder="DONDE"name="campo5" required>
-                </div>
-                <div class="contenedor-in">
-                    <input type="text" id="campo5"  class="inChico"  placeholder="NUMERO CAUSA"name="campo5" required>
-                    <input type="text" id="campo4" class="inMediano" placeholder="PORQUE?" name="campo4" required>
-                </div>
-                
-            </div>
-            <div class="novisible" id="F4">
-                <h3>REMISION Y FAMILIA</h3>
-                <div class="divsolapa">
-                    <button class="btn" name="F1" onclick="cambiarClasePadre(event)" >detenido</button>
-                    <button class="btn " name="F2" onclick="cambiarClasePadre(event)" >policial</button>
-                    <button class="btn" name="F3" onclick="cambiarClasePadre(event)" >judicial</button>
-                    <button class="activo" name="F4" onclick="cambiarClasePadre(event)">familia</button>
-                </div>
-
-                <div class="contenedor-in">
-                    <input type="text" id="campo4" class="inMediano"  placeholder="NOMBRE MADRE"name="campo4" required>
-                    <input type="text" id="campo5"  class="inChico" placeholder="APELLIDO" name="campo5" required>
-                </div>
-                <div class="contenedor-in">
-                    <input type="text" id="campo4" class="inMediano"  placeholder="DOMICILIO"name="campo4" required>
-                    <input type="text" id="campo5"  class="inChico" placeholder="NUMERAL" name="campo5" required>
-                </div>
-                <div class="contenedor-in">
-                    <input type="text" id="campo4" class="inMediano"  placeholder="NOMBRE PADRE"name="campo4" required>
-                    <input type="text" id="campo5"  class="inChico" placeholder="APELLIDO" name="campo5" required>
-                </div>
-                <div class="contenedor-in">
-                    <input type="text" id="campo4" class="inMediano" placeholder="DOMICILIO" name="campo4" required>
-                    <input type="text" id="campo5"  class="inChico" placeholder="NUMERAL"name="campo5" required>
-                </div>
-                <div class="contenedor-in">
-                    <input type="text" id="campo5"  class="inChico" placeholder="APELLIDO CONB/ESP" name="campo5" required>
-                    <input type="text" id="campo4" class="inMediano"  placeholder="NOMBRE" name="campo4" required>
-                </div>
-                
-                <div>
-                    <label for="opcion">OJOS</label>
-                    <select id="opcion" name="opcion">
-                        <option value="verde">verde</option>
-                        <option value="azul">azul</option>
-                        <option value="marron">maron</option>
-                        <option value="gris">gris</option>
-                    </select>
-                    <label for="opcion">CABELLO</label>
-                    <select id="opcion" name="opcion">
-                        <option value="rubio">rubio</option>
-                        <option value="maron">maron</option>
-                        <option value="blanco">blanco</option>
-                        <option value="negro">negro</option>
-                        <option value="colorado">colorado</option>
-                    </select>
-                    <label for="opcion">BARBA</label>
-                    <select id="opcion" name="opcion">
-                        <option value="rubio">rubio</option>
-                        <option value="maron">maron</option>
-                        <option value="blanco">blanco</option>
-                        <option value="negro">negro</option>
-                        <option value="colorado">colorado</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="opcion">ALTURA</label>
-                    <select id="opcion" name="opcion">
-                    <option value="120cm">120cm</option>
-                    <option value="130cm">130cm</option>
-                    <option value="140cm">140cm</option>
-                    <option value="150cm">150cm</option>
-                    <option value="160cm">160cm</option>
-                    <option value="170cm">170cm</option>
-                    <option value="180cm">180cm</option>
-                    <option value="190cm">190cm</option>
-                    <option value="200cm">200cm</option>
-                    <option value="210cm">210cm</option>
-                    </select>
-                    <label for="opcion">TEZ</label>
-                    <select id="opcion" name="opcion">
-                        <option value="palida">palida</option>
-                        <option value="marfil">marfil</option>
-                        <option value="beige">beige</option>
-                        <option value="trigueño">trigueño</option>
-                        <option value="marron">marron</option>
-                        <option value="ebano">ebano</option>
-                    </select>
-                    <label for="opcion">CONTEXTURA</label>
-                    <select id="opcion" name="opcion">
-                    <option value="delgada">delgada</option>
-                    <option value="normal">normal</option>
-                    <option value="gruesa">gruesa</option>
-                    <option value="obeso">obeso</option>
-                    </select>
-                </div>
-                <button class="boton">siguinte</button>
-            </div>
-            
-                
+                    
             </form>
 
         </div>
